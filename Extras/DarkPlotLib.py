@@ -16,4 +16,5 @@ ax.set_xlabel('x-axis')
 ax.set_ylabel('y-axis')
 ax.set_title("'dark_background' style sheet")
 
+fig.savefig("dark_test.png")
 plt.show()

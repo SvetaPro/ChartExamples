@@ -15,3 +15,5 @@ def plot_chart():
     ax.grid()
 
     plt.show()
+
+

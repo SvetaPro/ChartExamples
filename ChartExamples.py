@@ -13,7 +13,7 @@ def do_close():
 	
 # Создание главного окна
 window = tk.Tk()
-window.geometry("450x450")
+window.geometry("450x550")
 window.title("Примеры построения графиков")
 
 # Добавление метки заголовка
@@ -41,9 +41,37 @@ btnChart3.place(x=40, y=215, width=90, height=30)
 lblChart3 = tk.Label(text = "График darkplotlib")
 lblChart3.place(x=170, y=222)
 
+# Добавление кнопки и метки для графика 4
+btnChart2 = tk.Button(window, text="График 4", font = ('Helvetica', 10, 'bold'), command=chart2.plot_chart)
+btnChart2.place(x=40, y=265, width=90, height=30)
+
+lblChart2 = tk.Label(text = "Нормальное распределение - 3 графика")
+lblChart2.place(x=170, y=272)
+
+# Добавление кнопки и метки для графика 5
+btnChart2 = tk.Button(window, text="График 5", font = ('Helvetica', 10, 'bold'), command=chart2.plot_chart)
+btnChart2.place(x=40, y=315, width=90, height=30)
+
+lblChart2 = tk.Label(text = "Описание графика")
+lblChart2.place(x=170, y=322)
+
+# Добавление кнопки и метки для графика 6
+btnChart2 = tk.Button(window, text="График 6", font = ('Helvetica', 10, 'bold'), command=chart2.plot_chart)
+btnChart2.place(x=40, y=365, width=90, height=30)
+
+lblChart2 = tk.Label(text = "Описание графика")
+lblChart2.place(x=170, y=372)
+
+# Добавление кнопки и метки для графика 7
+btnChart2 = tk.Button(window, text="График 7", font = ('Helvetica', 10, 'bold'), command=chart2.plot_chart)
+btnChart2.place(x=40, y=415, width=90, height=30)
+
+lblChart2 = tk.Label(text = "Описание графика")
+lblChart2.place(x=170, y=422)
+
 # Добавление кнопки закрытия программы
 btnClose = tk.Button(window, text = "Закрыть", font = ('Helvetica', 10, 'bold'), command = do_close)
-btnClose.place(x = 330, y = 400, width = 90, height = 30)
+btnClose.place(x = 330, y = 500, width = 90, height = 30)
 
 # Запуск цикла mainloop
 window.mainloop()

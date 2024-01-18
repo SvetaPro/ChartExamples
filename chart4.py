@@ -15,5 +15,6 @@ def plot_chart():
     sns.histplot(data=df_normal_a
                 , x='score'
                 , bins=50
+                , kde=True
                 )
     plt.show() 

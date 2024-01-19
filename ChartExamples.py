@@ -50,17 +50,17 @@ lblChart2 = tk.Label(text = "Нормальное распределение - 3
 lblChart2.place(x=170, y=272)
 
 # Добавление кнопки и метки для графика 5
-btnChart2 = tk.Button(window, text="График 5", font = ('Helvetica', 10, 'bold'), command=chart2.plot_chart)
+btnChart2 = tk.Button(window, text="График 5", font = ('Helvetica', 10, 'bold'), command=chart4.plot_chart)
 btnChart2.place(x=40, y=315, width=90, height=30)
 
 lblChart2 = tk.Label(text = "Гистограмма seaborn")
 lblChart2.place(x=170, y=322)
 
 # Добавление кнопки и метки для графика 6
-btnChart2 = tk.Button(window, text="График 6", font = ('Helvetica', 10, 'bold'), command=chart2.plot_chart)
+btnChart2 = tk.Button(window, text="График 6", font = ('Helvetica', 10, 'bold'), command=chart4.plot_chart2)
 btnChart2.place(x=40, y=365, width=90, height=30)
 
-lblChart2 = tk.Label(text = "Описание графика")
+lblChart2 = tk.Label(text = "Сдвоенная гистограмма seaborn")
 lblChart2.place(x=170, y=372)
 
 # Добавление кнопки и метки для графика 7
